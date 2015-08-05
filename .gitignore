@@ -1,0 +1,9 @@
+# Intellij and OS X
+.idea
+bookService.iml
+.DS_Store
+.gradle
+gradle
+
+# Project
+build/
