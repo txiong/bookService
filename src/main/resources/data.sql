@@ -1,0 +1,10 @@
+INSERT INTO BOOK VALUES (1, 'Java for Dummies', 'Jones', 'Dunbar', 'Software');
+INSERT INTO BOOK VALUES (2, 'C# for Dummies', 'Jones', 'Dunbar', 'Software');
+INSERT INTO BOOK VALUES (3, 'Software Development', 'Peter', 'Pike', 'Software');
+INSERT INTO BOOK VALUES (4, 'Web Development 2.0', 'Tracy', 'Porter', 'Software');
+INSERT INTO BOOK VALUES (5, 'Peter The Ghost', 'Peter', 'Pike', 'Science Fiction');
+INSERT INTO BOOK VALUES (6, 'Ghost Town', 'Charlie', 'Brown', 'Science Fiction');
+INSERT INTO BOOK VALUES (7, 'The Life of Tom Brady', 'Charlie', 'Brown', 'Biography');
+INSERT INTO BOOK VALUES (8, 'The Life of Steve Young', 'Charlie', 'Brown', 'Biography');
+INSERT INTO BOOK VALUES (9, 'The Lost trek 1', 'Zane', 'Brown', 'Novel');
+INSERT INTO BOOK VALUES (10, 'The Lost Trek 2', 'Zane', 'Brown', 'Novel');

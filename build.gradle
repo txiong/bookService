@@ -4,12 +4,15 @@ buildscript {
     }
     dependencies {
         classpath("org.springframework.boot:spring-boot-gradle-plugin:1.2.5.RELEASE")
+        classpath("se.transmode.gradle:gradle-docker:1.2")
     }
 }
 
+apply plugin: 'application'
 apply plugin: 'java'
 apply plugin: 'idea'
 apply plugin: 'spring-boot'
+apply plugin: 'docker'
 
 jar {
     baseName = 'bookservice'
@@ -25,5 +28,12 @@ targetCompatibility = 1.8
 
 dependencies {
     compile("org.springframework.boot:spring-boot-starter-web")
+    compile("org.springframework.boot:spring-boot-starter-data-jpa:1.2.5.RELEASE")
+    runtime("org.hsqldb:hsqldb:2.3.3")
     testCompile("junit:junit")
+}
+
+docker {
+    baseImage "java"
+    maintainer 'Thor Xiong'
 }

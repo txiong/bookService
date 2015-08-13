@@ -1,4 +1,4 @@
-package com.txiong.services;
+package com.txiong.service;
 
 import com.txiong.model.Book;
 
@@ -10,7 +10,11 @@ import java.util.List;
 public interface BookService {
     public List<Book> listBooks();
 
-    public Book getBook(String title, String author);
+    public List<Book> listBooks(String firstName, String lastName);
+
+    public List<Book> listBooks(String type);
+
+    public Book getBook(String title);
 
     public Book createBook(Book book);
 
