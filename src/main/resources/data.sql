@@ -9,3 +9,4 @@ INSERT INTO BOOK VALUES (8, 'The Life of Steve Young', 'Charlie', 'Brown', 'Biog
 INSERT INTO BOOK VALUES (9, 'The Lost trek 1', 'Zane', 'Brown', 'Novel');
 INSERT INTO BOOK VALUES (10, 'The Lost Trek 2', 'Zane', 'Brown', 'Novel');
 INSERT INTO BOOK VALUES (11, 'The Lost Trek 3', 'Zane', 'Brown', 'Novel');
+INSERT INTO BOOK VALUES (11, 'The Lost Trek 4', 'Zane', 'Brown', 'Novel');
